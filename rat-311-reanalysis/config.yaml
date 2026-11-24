@@ -1,0 +1,27 @@
+# Experiment settings
+data:
+  # Raw data file (see data/README.md)
+  sightings_csv: data/raw/Rat_Sightings.csv
+  population_csv: data/population_boroughs.csv
+  # Optional file for checking whether both exports have the same records
+  duplicate_check_csv: data/raw/Rats__Heat_Map.csv
+
+output_dir: outputs
+years: complete        # Use full years or list them, e.g. [2012, 2013, 2014]
+seed: 597
+n_boot: 1000
+
+experiments:
+  h1_per_capita:
+    per: 10000
+  h2_trend:
+    per: 100000
+    repeat_window_days: 30
+    baseline_end: 2019
+    test_years: [2021, 2022]
+  h3_seasonality: {}
+  h4_concentration:
+    unit: Incident Zip
+    top_fraction: 0.1
+  h5_repeats:
+    windows: [7, 30, 90]

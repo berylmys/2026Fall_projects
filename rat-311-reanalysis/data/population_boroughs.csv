@@ -1,0 +1,11 @@
+borough,year,population,source
+Bronx,2010,1385108,US Census 2010 (NYC DCP table PL-P5)
+Brooklyn,2010,2504700,US Census 2010 (NYC DCP table PL-P5)
+Manhattan,2010,1585873,US Census 2010 (NYC DCP table PL-P5)
+Queens,2010,2230722,US Census 2010 (NYC DCP table PL-P5)
+Staten Island,2010,468730,US Census 2010 (NYC DCP table PL-P5)
+Bronx,2020,1472654,US Census 2020 PL 94-171 (NYC DCP 2022 presentation)
+Brooklyn,2020,2736074,US Census 2020 PL 94-171 (NYC DCP 2022 presentation)
+Manhattan,2020,1694251,US Census 2020 PL 94-171 (NYC DCP 2022 presentation)
+Queens,2020,2405464,US Census 2020 PL 94-171 (NYC DCP 2022 presentation)
+Staten Island,2020,495747,US Census 2020 PL 94-171 (NYC DCP 2022 presentation)

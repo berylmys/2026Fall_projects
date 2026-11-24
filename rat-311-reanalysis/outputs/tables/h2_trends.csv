@@ -1,0 +1,4 @@
+,series,slope_per_year,slope_low,slope_high,kendall_tau,p_value
+0,complaints,1273.6623,697.1111,1621.0,0.7692,0.0001
+1,per_100k,13.7308,7.0476,17.3396,0.6923,0.0005
+2,episodes_per_100k,9.5216,4.7428,13.268,0.6154,0.0027
